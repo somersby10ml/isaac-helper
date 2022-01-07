@@ -1,0 +1,24 @@
+[submodule "deps/imgui"]
+	path = deps/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "deps/glfw"]
+	path = deps/glfw
+	url = https://github.com/glfw/glfw.git
+[submodule "deps/asmjit"]
+	path = deps/asmjit
+	url = https://github.com/asmjit/asmjit.git
+[submodule "deps/asmtk"]
+	path = deps/asmtk
+	url = https://github.com/asmjit/asmtk.git
+[submodule "deps/rapidcsv"]
+	path = deps/rapidcsv
+	url = https://github.com/d99kris/rapidcsv.git
+[submodule "deps/stb"]
+	path = deps/stb
+	url = https://github.com/nothings/stb.git
+[submodule "deps/glew"]
+	path = deps/glew
+	url = https://github.com/Perlmint/glew-cmake.git
+[submodule "deps/LeksysINI"]
+	path = deps/LeksysINI
+	url = https://github.com/Lek-sys/LeksysINI.git
