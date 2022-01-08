@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source File">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header File">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Hook">
+      <UniqueIdentifier>{74cdc73b-cd6c-4809-afbd-07d5629346d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{6bb1b606-da8d-4154-8939-e311b3b51931}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="hook_control.cpp">
+      <Filter>Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="hook_function.cpp">
+      <Filter>Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui\imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui\imgui_demo.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui\imgui_tables.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui\backends\imgui_impl_win32.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\deps\imgui\backends\imgui_impl_glfw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="screen.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="isaac_data.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="hook_control.h">
+      <Filter>Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="hook_function.h">
+      <Filter>Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui\imstb_rectpack.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui\imstb_textedit.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui\imstb_truetype.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui\imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui\imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui\backends\imgui_impl_opengl3.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui\backends\imgui_impl_win32.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\deps\imgui\backends\imgui_impl_glfw.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="screen.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="isaac_data.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
